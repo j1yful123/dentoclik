@@ -1,0 +1,59 @@
+﻿#Project Data
+
+Browser = chromeHeadless
+siteURL = https://jay.dentoclik.com/user
+
+
+**************************************************************************   PROJECT OBJECT  **********************************************************************
+
+//////////////////////////////////////////////////////////////////  LOGIN PAGE OBJECT
+
+login = //button[@id='signin']
+u_name = //input[@id='username']
+pwd = //input[@id='password']
+getOTP_continue = //input[@name='next']
+tx_OTP = //input[@id='OTPcode']
+OTP_submit = //input[@name='next']
+
+//////////////////////////////////////////////////////////////////  HOME PAGE OBJECT
+
+btn_patient = //body[@class='left-side-collapsed']/div/div[@id='wrapper']/main[@class='cd-main-content']/nav[@id='sidebar']/div[@class='sidebar-collapse menu-scroll']/ul[@id='side-menu']/li[3]/a[1]
+
+//////////////////////////////////////////////////////////////////  PATIENT PAGE OBJECT
+
+addPatient_icon = //ul[@class='list-inline']//a[@class='ng-scope']
+dd_doctor = /html[1]/body[1]/div[3]/div[1]/main[1]/div[1]/div[1]/div[3]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1] 
+dr_name = //div[@class='btn-group bootstrap-select form-control full-width ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-required open']//a[@class='ng-binding ng-scope']
+tx_fName = //main//form//div//div//div[2]//div[1]//div[1]//div[1]//input[1]
+tx_lName = //input[@placeholder='Last Name']
+gender_female = .//*[@id='inlineRadio2']
+tx_DOB = .//*[@id='dob']
+cel_icon = //div[@class='form-group col-sm-1 b-cal col-xs-1']//i[@class='fa fa-calendar']
+submit_btn = .//*[@class='btn btn-rounded btn-theme ripple-effect ng-binding'][contains(text(),'Save')]
+setting_menu = //body[@class='left-side-collapsed']/div/div[@id='wrapper']/main[@class='cd-main-content']/div[@class='content-wrapper']/div[@class='ng-scope']/div[@class='ng-scope']/div[@class='inner-cont no-padding']/div/div[@class='table-responsives']/table[contains(@class,'table table-striped')]/tbody[@class='ng-scope']/tr[1]/td[7]/a[1]	
+del_btn = //td[@class='dropdown v-middle text-center open']//a[@class='ng-binding'][contains(text(),'Delete')]
+del_ok_btn = //div[@id='modal-confirm']//button[@class='btn btn-primary ng-binding'][contains(text(),'OK')]
+toast_lbl = //div[@class='toast-message']
+dr_name = //div[@class='btn-group bootstrap-select form-control full-width ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-required open']//span[@class='text'][contains(text(),'Jay Shah')]
+
+**************************************************************************   PROJECT DATA  **********************************************************************
+
+//////////////////////////////////////////////////////////////////  LOGIN PAGE DATA
+
+userName = isantetech2019@gmail.com
+password = F9cOqCOq
+OTP = 123456
+
+//////////////////////////////////////////////////////////////////  ADD PATIENT PAGE DATA
+
+firstName = Bhoomi
+lastName = Padaliya
+DOB = 01-10-1996
+DDValue = Jay Shah
+add_successMsg = Patient has been added successfully
+del_successMsg = Patient has been deleted successfully
+
+
+
+
+
